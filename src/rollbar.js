@@ -1,11 +1,11 @@
 // Track error by rollbar.com
-if (location.host === 'preview.pro.ant.design') {
-  const Rollbar = require('rollbar').default;
+if (location.host === 'kuaidihelp.com') {
+  const Rollbar = require('rollbar');
   Rollbar.init({
-    accessToken: '033ca6d7c0eb4cc1831cf470c2649971',
+    accessToken: '428011247d8e4256af00af8815f6d2f8',
     captureUncaught: true,
     captureUnhandledRejections: true,
-    hostWhiteList: ['ant.design'],
+    hostWhiteList: ['kuaidihelp.com'],
     payload: {
       environment: 'production',
     },

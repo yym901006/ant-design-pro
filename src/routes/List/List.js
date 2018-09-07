@@ -54,6 +54,9 @@ export default class SearchList extends Component {
 
     const { match, routerData, location } = this.props;
     const routes = getRoutes(match.path, routerData);
+    console.info('match.path', match.path);
+    console.info('routerData', routerData);
+    console.info('routes', routes);
 
     return (
       <PageHeaderLayout
