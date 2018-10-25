@@ -349,3 +349,5 @@ export default class AdvancedProfile extends Component {
     );
   }
 }
+
+export default AdvancedProfile;

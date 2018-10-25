@@ -21,7 +21,12 @@ export default class SearchList extends Component {
       default:
         break;
     }
-  };
+  }
+
+  handleFormSubmit = (value) => {
+    // eslint-disable-next-line
+    console.log(value);
+  }
 
   render() {
     const tabList = [
@@ -70,3 +75,5 @@ export default class SearchList extends Component {
     );
   }
 }
+
+export default SearchList;

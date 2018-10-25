@@ -97,3 +97,5 @@ export default class CardList extends PureComponent {
     );
   }
 }
+
+export default CardList;

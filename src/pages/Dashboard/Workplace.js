@@ -252,3 +252,5 @@ export default class Workplace extends PureComponent {
     );
   }
 }
+
+export default Workplace;

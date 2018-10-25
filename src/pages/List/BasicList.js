@@ -336,3 +336,5 @@ export default class BasicList extends PureComponent {
     );
   }
 }
+
+export default BasicList;

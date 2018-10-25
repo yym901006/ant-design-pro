@@ -181,3 +181,5 @@ export default class BasicProfile extends Component {
     );
   }
 }
+
+export default BasicProfile;

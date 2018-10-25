@@ -163,3 +163,5 @@ export default class Gauge extends React.Component {
     );
   }
 }
+
+export default Gauge;

@@ -124,3 +124,5 @@ export default class GeographicView extends PureComponent {
     );
   }
 }
+
+export default GeographicView;

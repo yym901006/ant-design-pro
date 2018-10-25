@@ -104,3 +104,5 @@ export default class MiniArea extends React.PureComponent {
     );
   }
 }
+
+export default MiniArea;

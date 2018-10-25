@@ -48,3 +48,5 @@ export default class Center extends PureComponent {
     );
   }
 }
+
+export default Center;

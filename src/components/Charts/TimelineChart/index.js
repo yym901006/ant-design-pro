@@ -120,3 +120,5 @@ export default class TimelineChart extends React.Component {
     );
   }
 }
+
+export default TimelineChart;

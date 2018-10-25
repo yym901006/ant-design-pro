@@ -121,3 +121,5 @@ export default class Info extends Component {
     );
   }
 }
+
+export default Info;

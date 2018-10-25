@@ -111,3 +111,5 @@ export default class Step1 extends React.PureComponent {
     );
   }
 }
+
+export default Step1;

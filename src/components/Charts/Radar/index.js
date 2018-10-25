@@ -180,3 +180,5 @@ export default class Radar extends Component {
     );
   }
 }
+
+export default Radar;
