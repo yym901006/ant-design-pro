@@ -11,7 +11,7 @@ import styles from './CardList.less';
   list,
   loading: loading.models.list,
 }))
-export default class CardList extends PureComponent {
+class CardList extends PureComponent {
   componentDidMount() {
     const { dispatch } = this.props;
     dispatch({

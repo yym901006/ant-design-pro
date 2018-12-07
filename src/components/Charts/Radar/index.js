@@ -6,7 +6,7 @@ import styles from './index.less';
 
 /* eslint react/no-danger:0 */
 @autoHeight()
-export default class Radar extends Component {
+class Radar extends Component {
   state = {
     legendData: [],
   };
@@ -92,7 +92,7 @@ export default class Radar extends Component {
       title,
       hasLegend = false,
       forceFit = true,
-      tickCount = 4,
+      tickCount = 5,
       padding = [35, 30, 16, 30],
       animate = true,
       colors = defaultColors,

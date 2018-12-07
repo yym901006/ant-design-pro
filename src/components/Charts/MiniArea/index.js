@@ -4,7 +4,7 @@ import autoHeight from '../autoHeight';
 import styles from '../index.less';
 
 @autoHeight()
-export default class MiniArea extends React.PureComponent {
+class MiniArea extends React.PureComponent {
   render() {
     const {
       height,

@@ -8,7 +8,7 @@ import styles from './style.less';
 @connect(({ form }) => ({
   data: form.step,
 }))
-export default class Step3 extends React.PureComponent {
+class Step3 extends React.PureComponent {
   render() {
     const { data } = this.props;
     const onFinish = () => {

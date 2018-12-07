@@ -11,7 +11,7 @@ const { Item } = Menu;
 @connect(({ user }) => ({
   currentUser: user.currentUser,
 }))
-export default class Info extends Component {
+class Info extends Component {
   constructor(props) {
     super(props);
     const { match, location } = props;

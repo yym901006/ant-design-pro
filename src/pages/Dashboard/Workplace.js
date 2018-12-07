@@ -46,7 +46,7 @@ const links = [
   projectLoading: loading.effects['project/fetchNotice'],
   activitiesLoading: loading.effects['activities/fetchList'],
 }))
-export default class Workplace extends PureComponent {
+class Workplace extends PureComponent {
   componentDidMount() {
     const { dispatch } = this.props;
     dispatch({

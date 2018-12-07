@@ -18,7 +18,7 @@ const nullSlectItem = {
     isLoading,
   };
 })
-export default class GeographicView extends PureComponent {
+class GeographicView extends PureComponent {
   componentDidMount = () => {
     const { dispatch } = this.props;
     dispatch({

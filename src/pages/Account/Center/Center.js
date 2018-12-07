@@ -13,7 +13,7 @@ import styles from './Center.less';
   project,
   projectLoading: loading.effects['project/fetchNotice'],
 }))
-export default class Center extends PureComponent {
+class Center extends PureComponent {
   state = {
     newTags: [],
     inputVisible: false,

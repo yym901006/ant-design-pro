@@ -25,7 +25,7 @@ const { TextArea } = Input;
   submitting: loading.effects['form/submitRegularForm'],
 }))
 @Form.create()
-export default class BasicForms extends PureComponent {
+class BasicForms extends PureComponent {
   handleSubmit = e => {
     const { dispatch, form } = this.props;
     e.preventDefault();

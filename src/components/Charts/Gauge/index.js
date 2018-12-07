@@ -52,7 +52,7 @@ Shape.registerShape('point', 'pointer', {
 });
 
 @autoHeight()
-export default class Gauge extends React.Component {
+class Gauge extends React.Component {
   render() {
     const {
       title,

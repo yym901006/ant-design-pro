@@ -6,7 +6,7 @@ import styles from './style.less';
 @connect(state => ({
   isloading: state.error.isloading,
 }))
-export default class TriggerException extends PureComponent {
+class TriggerException extends PureComponent {
   state = {
     isloading: false,
   };

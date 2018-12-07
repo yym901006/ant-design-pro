@@ -5,7 +5,7 @@ import { Input } from 'antd';
 import PageHeaderWrapper from '@/components/PageHeaderWrapper';
 
 @connect()
-export default class SearchList extends Component {
+class SearchList extends Component {
   handleTabChange = key => {
     const { match } = this.props;
     switch (key) {
@@ -21,12 +21,12 @@ export default class SearchList extends Component {
       default:
         break;
     }
-  }
+  };
 
-  handleFormSubmit = (value) => {
+  handleFormSubmit = value => {
     // eslint-disable-next-line
     console.log(value);
-  }
+  };
 
   render() {
     const tabList = [
@@ -55,6 +55,7 @@ export default class SearchList extends Component {
         />
       </div>
     );
+
     const { match, children, location } = this.props;
 
     return (

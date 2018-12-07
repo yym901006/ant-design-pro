@@ -61,7 +61,7 @@ const tableData = [
   submitting: loading.effects['form/submitAdvancedForm'],
 }))
 @Form.create()
-export default class AdvancedForm extends PureComponent {
+class AdvancedForm extends PureComponent {
   state = {
     width: '100%',
   };

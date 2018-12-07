@@ -7,7 +7,7 @@ import styles from './Articles.less';
 @connect(({ list }) => ({
   list,
 }))
-export default class Center extends PureComponent {
+class Center extends PureComponent {
   render() {
     const {
       list: { list },

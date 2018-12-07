@@ -7,7 +7,7 @@ import styles from './index.less';
 // riddle: https://riddle.alibaba-inc.com/riddles/2d9a4b90
 
 @autoHeight()
-export default class WaterWave extends PureComponent {
+class WaterWave extends PureComponent {
   state = {
     radio: 1,
   };
